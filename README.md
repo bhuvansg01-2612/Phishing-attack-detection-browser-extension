@@ -14,7 +14,7 @@ Balanced the dataset to avoid model bias.
 
 2. Feature Engineering (Hybrid Features)
 
-🔗 URL-based features
+ URL-based features
 
 URL length
 
@@ -28,13 +28,13 @@ Encoded characters
 
 Entropy metrics
 
-🌐 Domain-based features
+ Domain-based features
 
 Domain age
 
 WHOIS details (registrar, expiry date, etc.)
 
-📄 HTML/DOM features
+ HTML/DOM features
 
 Number of forms
 
@@ -44,7 +44,7 @@ Suspicious iframes
 
 Login fields detection (username/password)
 
-🧷 Rule-based signals
+ Rule-based signals
 
 Blacklist checks
 
@@ -61,9 +61,9 @@ Dataset → Preprocessing → Feature Engineering → Training → Validation �
 
 The final model:
 
-📌 Accuracy: 95%
-📌 ROC-AUC: 0.98
-📌 Saved as: phishing_classifier.pkl
+ Accuracy: 95%
+ ROC-AUC: 0.98
+ Saved as: phishing_classifier.pkl
 
 Results
 
@@ -77,7 +77,7 @@ Successfully tested real-time predictions (e.g., facebook.com correctly classifi
 
 Console-based URL testing also validated predictions.
 
-🔮 Future Implementation
+ Future Implementation
 
 Incorporate deep-learning models (CNNs, RNNs, transformers).
 
