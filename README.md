@@ -4,7 +4,7 @@ Traditional techniques detect phishing using either URL patterns, domain details
 
 This project introduces a Hybrid Feature–Based Phishing Detection System integrated into a browser extension for real-time protection.
 
-Data Collection
+1.Data Collection
 
 Collected phishing and legitimate URLs from Kaggle, PhishTank, etc.
 
@@ -12,7 +12,7 @@ Crawled web pages to collect HTML and DOM information.
 
 Balanced the dataset to avoid model bias.
 
-2. Feature Engineering (Hybrid Features)
+2.Feature Engineering (Hybrid Features)
 
  URL-based features
 
@@ -28,7 +28,7 @@ Encoded characters
 
 Entropy metrics
 
- Domain-based features
+3.Domain-based features
 
 Domain age
 
@@ -44,7 +44,7 @@ Suspicious iframes
 
 Login fields detection (username/password)
 
- Rule-based signals
+4.Rule-based signals
 
 Blacklist checks
 
@@ -52,7 +52,7 @@ Keyword matching
 
 Known phishing templates
 
-3. Model Development
+* Model Development
 
 Supervised ML using Random Forest Classifier.
 
@@ -65,7 +65,7 @@ The final model:
  ROC-AUC: 0.98
  Saved as: phishing_classifier.pkl
 
-Results
+* Results
 
 Dataset distribution visualized (phishing vs. legitimate).
 
@@ -77,7 +77,7 @@ Successfully tested real-time predictions (e.g., facebook.com correctly classifi
 
 Console-based URL testing also validated predictions.
 
- Future Implementation
+* Future Implementation
 
 Incorporate deep-learning models (CNNs, RNNs, transformers).
 
